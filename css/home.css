@@ -1,0 +1,104 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    color:white;
+}
+
+body {
+    /* background-color: #c1121f; */
+    background: radial-gradient(#c1121f, #000000);
+    height: 100vh;
+}
+
+header {
+    height: 30vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.greenHeart {
+    margin: 20px;
+    height: 150px;
+    width: 150px;
+    fill: rgb(7, 179, 7);
+    color: black;
+}
+
+.title{
+    color: white;
+    position: absolute;
+    font-family: 'share tech mono';
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    font-size: 5vh;
+    font-weight: 800;
+}
+.backToIntro {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    color: white;
+    background-color: darkred;
+    border: 1px solid white;;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.backToIntro:hover {
+    cursor: pointer;
+    border: 2px solid white;
+
+}
+
+/* #MAIN */
+
+main {
+    display: flex;
+    width: 100vw;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box {
+    height: 150px;
+    width: 250px;
+    background-color: #611318;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-right:50px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.box:hover {
+    background-color: #000000;
+    cursor: pointer;
+    border: 2px solid white;
+
+}
+
+
+.watermark {
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: monospace;
+    
+}
+
+.surpriceIcon {
+    margin: 20px;
+    height: 150px;
+    width: 150px;
+}

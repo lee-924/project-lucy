@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #1B1B1E;
+}
+
+header {
+   /*  border: 2px solid rgb(110, 222, 6); */
+    background-color: #000000;
+    height: 30vh;
+    position: relative;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+
+.head {
+    background-color: #000000;
+    height: 30vh;
+    position: relative;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    animation-name: start;
+    animation-duration: 5s;
+    animation-play-state: paused;
+    animation-fill-mode: forwards;
+    z-index:1;
+
+}
+
+@keyframes start {
+    0% { 
+        height: 30vh;
+        background: radial-gradient(#a00f0f, #000000)
+    }
+    100% {
+        height: 100vh;
+        border-radius: 0px;
+        background: radial-gradient(#c1121f, #000000);
+    }
+    
+}
+
+.title {
+    color: white;
+    position: absolute;
+    font-family: 'share tech mono';
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    font-size: 5vh;
+    font-weight: 800;
+    animation-name: title;
+    animation-duration: 8s;
+    animation-play-state: paused;
+   
+    z-index:2;
+
+
+}
+
+@keyframes title {
+    0%{
+        opacity:1;    
+        scale(1);
+    }
+
+    1%{
+        opacity:0;    
+        scale(.5);
+        filter:blur(15px);
+    }
+
+    100%{
+        opacity:1;
+        scale(1);
+        filter:blur(0);
+    }
+}
+
+main {
+    margin-top: 5vh;
+    height:auto;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.inputCode {
+    margin-top: 10vh;
+    width: 50vw;
+    height: 8vh;
+    border-radius: 10px;
+    border: 1px solid white;
+    background-color: black;
+    text-align: center;
+    color:white;
+}
+
+.confirmCode {
+    margin-top: 20px;
+    background-color: rgb(3, 157, 3);
+    border: 1px solid white;
+    border-radius: 10px;
+    height: 30px;
+    width: 150px;
+}
+
+.confirmCode:hover {
+    background-color: lime;
+    text-decoration: double;
+    cursor: pointer;
+}
+
+.yapping {
+    margin-top: 20px;
+    background-color: rgb(220, 13, 13);
+    border: 1px solid white;
+    border-radius: 5px;
+    height: 20px;
+    width: 100px;
+}
+
+.yapping:hover {
+    cursor:pointer;
+    background-color: red;
+}
+
+.hiddenDiv { 
+    display: none;
+    height: 50vh;
+    width: 50vw;
+    position: fixed;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 10px;
+    animation-name: hiddenDiv;
+    animation-duration: 2s;
+    animation-play-state: running;
+    z-index: 3;
+    overflow: hidden;
+
+}
+@keyframes hiddenDiv {
+    0% {
+        height: 0vh;
+    }
+
+    100% {
+        height: 50vh;
+    }
+    
+}
+
+.cancel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top:5px;
+    right: 5px;
+    background-color: red;
+    border: 1px solid white;
+    border-radius: 5px;
+    
+
+}
+
+.cancel:hover {
+    cursor:pointer
+}
+
+.hiddenYapping {
+    color:white;
+    padding: 20px;
+
+}
+
+.yap {
+    margin-top: 15px;
+    
+}
