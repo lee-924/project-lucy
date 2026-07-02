@@ -13,3 +13,8 @@ let b2 = document.querySelector('.b2')
 b2.addEventListener('click', () => {
     window.location.href = 'surprises.html'
 })
+
+let b3 = document.querySelector('.b3')
+b3.addEventListener('click', () => {
+    window.location.href = 'us.html'
+})
