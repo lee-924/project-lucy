@@ -11,7 +11,7 @@ b1.addEventListener('click', () => {
 
 let b2 = document.querySelector('.b2')
 b2.addEventListener('click', () => {
-    window.location.href = 'surprises.html'
+    window.location.href = 'Surprises.html'
 })
 
 let b3 = document.querySelector('.b3')
