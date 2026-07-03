@@ -75,3 +75,24 @@ c1.addEventListener('click', () => {
     )
 })
 
+let dTimer = document.querySelector('.dTimer')
+
+let dateOfdate = new Date('2026-06-02 04:58:00').getTime()
+
+setInterval(() => {
+    let now = new Date().getTime()
+
+    let c = now - dateOfdate
+    let days = Math.floor(c/(1000*60*60*24))
+     let hours = Math.floor(c % (1000*60*60*24)/ (1000*60*60))
+    let minutes = Math.floor(
+            (c % (1000*60*60))
+            /(1000*60) )
+    let secs = Math.floor(
+            (c % (1000*60))
+            /1000)
+
+    
+    dTimer.innerHTML = `${days}d ${hours}hr ${minutes}m ${secs}s`
+},1000)
+

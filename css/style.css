@@ -20,6 +20,58 @@ header {
 
 }
 
+.updateBtn {
+    position: fixed;
+    color: white;
+    top: 10px;
+    left: 10px;
+    background-color:#4e0393;
+    padding: 2px;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-family: monospace;
+    z-index:3;
+}
+
+.can2:hover {
+    cursor: pointer;
+    border:1.5px solid white;
+}
+
+.updateDiv{
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    height: 40vh;
+    width: 30vw;
+    background-color: #000000;
+    z-index:4;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+}
+.updateBtn:hover {
+    border: 1.5px solid white;
+    cursor: pointer;
+    background-color: #370268;
+}
+
+.updateTitle {
+    margin: 10px;
+}
+.updateYap {
+    position: absolute;
+    left: 10px;
+    margin-top: 30px;
+    text-align: left;
+
+}
+
 .head {
     background-color: #000000;
     height: 30vh;
@@ -132,6 +184,7 @@ main {
 .yapping:hover {
     cursor:pointer;
     background-color: red;
+    border: 1.5px solid white;
 }
 
 .hiddenDiv { 

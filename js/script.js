@@ -24,7 +24,7 @@ confirmCode.addEventListener('click', () => {
 
 let yapping = document.querySelector('.yapping')
 let hiddenDiv = document.querySelector('.hiddenDiv')
-let cancelBtn = document.querySelector('.cancel')
+let cancelBtn = document.querySelector('.can1')
 yapping.addEventListener('click', () => {
     hiddenDiv.style.display = 'block'
     cancelBtn.addEventListener('click', () => {
@@ -32,3 +32,16 @@ yapping.addEventListener('click', () => {
     })
 
 })
+
+let updateBtn = document.querySelector('.updateBtn')
+
+updateBtn.addEventListener('click', () => {
+    updateDiv.style.display = 'flex'
+})
+let updateDiv = document.querySelector('.updateDiv')
+let can2 = document.querySelector('.can2')
+can2.addEventListener('click', () => {
+    updateDiv.style.display = 'none'
+
+})
+

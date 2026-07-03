@@ -49,6 +49,25 @@ header {
     width: 25px;
 }
 
+.dateTimer {
+    position: absolute;
+    text-align: center;
+    top: 20px;
+    left: 20px;
+    padding: 2px;
+    background: #240046;
+    border: 1px solid white;
+    border-radius: 5px;
+    z-index: 3;
+
+
+}
+
+.dateTimer:hover {
+    border: 2px solid white;
+
+}
+
 main {
   
     display: flex;
@@ -106,6 +125,10 @@ main {
 
 .c1Text {
 
+}
+
+.c31 {
+    margin-top: 15px;
 }
 
 .card1div {
