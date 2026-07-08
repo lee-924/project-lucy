@@ -19,6 +19,26 @@ header {
     position: relative;
 }
 
+
+.t {
+    position: fixed;
+    padding: 5px;
+    top: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-family: monospace;
+    font-size: large;
+}
+
+.timeTime {
+    right: 10%;
+}
+
+.timeDate {
+    left: 10%;
+}
+
+
 .greenHeart {
     margin: 20px;
     height: 150px;

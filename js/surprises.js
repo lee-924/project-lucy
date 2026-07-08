@@ -35,7 +35,6 @@ function timer(t) {
 
 
 setInterval(() => {
-t1.innerHTML = timer(first)
 t2.innerHTML = timer(sec)
 let f3 = timer(trd)
 t3.innerHTML = f3
@@ -48,15 +47,19 @@ t4.innerHTML = f4
 let hiddenDiv = document.querySelector('.hiddenDiv')
 let cancel = document.querySelector('.cancel')
 
-let circle = document.querySelectorAll('.circle')
 
-circle.forEach((id) => {
-    id.addEventListener('click', () => {
+
+c1.addEventListener('click', () => {
     hiddenDiv.style.display = 'flex'
     })
     
-})
+
 
 cancel.addEventListener('click',() => {
     hiddenDiv.style.display = 'none'
+})
+
+let agreeBtn = document.querySelector('.agree')
+agreeBtn.addEventListener('click', () => {
+    window.location.href = 'poem.html'
 })

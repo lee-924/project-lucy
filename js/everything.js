@@ -79,7 +79,7 @@ fav guys: me ofcour-- sigh nope, its Chuuya, Himmel, Asmodius, Levi...tsk tsk an
 
 fav fruit: cherries (also mangoes, sweet corn, watermelons, apples...)
 
-fav Juice: peach juice
+fav Juice: pear juice (sowwyyy)
 
 fav constellation: Мала ведмедиця (ursa major) 
 

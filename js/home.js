@@ -18,3 +18,15 @@ let b3 = document.querySelector('.b3')
 b3.addEventListener('click', () => {
     window.location.href = 'us.html'
 })
+
+let timeDate = document.querySelector('.timeDate')
+let timeTime = document.querySelector('.timeTime')
+
+setInterval(() => {
+    let d = new Date()
+    let nowTime = d.toLocaleTimeString('en-US',{hour12: false})
+    let nowDate = d.toLocaleDateString()
+    
+            timeTime.innerHTML = nowTime
+            timeDate.innerHTML = nowDate
+},1000)
