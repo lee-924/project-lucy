@@ -81,7 +81,7 @@ fav fruit: cherries (also mangoes, sweet corn, watermelons, apples...)
 
 fav Juice: pear juice (sowwyyy)
 
-fav constellation: Мала ведмедиця (ursa major) 
+fav constellation: Мала ведмедиця (ursa minor) 
 
 fav anime: bsd and deathnote
 
