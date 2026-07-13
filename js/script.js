@@ -45,3 +45,7 @@ can2.addEventListener('click', () => {
 
 })
 
+let skip = document.querySelector('.skip')
+skip.addEventListener('click', () => {
+    window.location.href = 'home.html'
+})
