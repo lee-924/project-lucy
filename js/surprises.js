@@ -9,14 +9,15 @@ let t3 = document.querySelector('.t3')
 let t4 = document.querySelector('.t4')
 
 let c1 = document.querySelector('.c1')
+let c2 = document.querySelector('.c2')
 
 
 
 
 let first = new Date('2026-07-8 16:00:00').getTime()
 let sec = new Date('2026-07-16 16:30:00').getTime()
-let trd = new Date('2026-07-24 15:45:00').getTime()
-let frth = new Date('2026-07-31 17:00:00').getTime()
+let trd = new Date('2026-07-25 15:45:00').getTime()
+let frth = new Date('2026-07-30 17:00:00').getTime()
 
 
 function timer(t) {
@@ -35,7 +36,6 @@ function timer(t) {
 
 
 setInterval(() => {
-t2.innerHTML = timer(sec)
 let f3 = timer(trd)
 t3.innerHTML = f3
 let f4 = timer(frth)
@@ -52,6 +52,10 @@ let cancel = document.querySelector('.cancel')
 c1.addEventListener('click', () => {
     hiddenDiv.style.display = 'flex'
     })
+
+c2.addEventListener('click', () => {
+    window.location.href = 'stars.html'
+} )
     
 
 
